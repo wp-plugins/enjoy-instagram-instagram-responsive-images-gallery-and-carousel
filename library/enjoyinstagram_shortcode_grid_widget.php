@@ -39,6 +39,7 @@ foreach ($result->data as $entry) {
 					columns		: <?php echo "{$n_c}"; ?>,
 					animType	: 'fadeInOut',
 					onhover : false,
+					interval		: 7000,
 					preventClick    : false,
 					w1024           : {
     rows    : <?php echo "{$n_r}"; ?>,
