@@ -274,18 +274,18 @@ function aggiungi_script_instafeed_owl() {
 	
  if(!is_admin()) {
  
- 	wp_register_script('owl', plugins_url().'/enjoyinstagram/js/owl.carousel.js','jquery','');
-	wp_register_script('swipebox', plugins_url().'/enjoyinstagram/js/jquery.swipebox.js','jquery','');
-    wp_register_script('gridrotator', plugins_url().'/enjoyinstagram/js/jquery.gridrotator.js','jquery','');
-    wp_register_script('modernizr.custom.26633', plugins_url().'/enjoyinstagram/js/modernizr.custom.26633.js','jquery','');
-	wp_register_script('orientationchange', plugins_url().'/enjoyinstagram/js/ios-orientationchange-fix.js','jquery','');
+ 	wp_register_script('owl', plugins_url('/js/owl.carousel.js',__FILE__),'jquery','');
+	wp_register_script('swipebox', plugins_url('/js/jquery.swipebox.js',__FILE__),'jquery','');
+    wp_register_script('gridrotator', plugins_url('/js/jquery.gridrotator.js',__FILE__),'jquery','');
+    wp_register_script('modernizr.custom.26633', plugins_url('/js/modernizr.custom.26633.js',__FILE__),'jquery','');
+	wp_register_script('orientationchange', plugins_url('/js/ios-orientationchange-fix.js',__FILE__),'jquery','');
 
-	wp_register_style( 'owl_style', plugins_url().'/enjoyinstagram/css/owl.carousel.css' );
-	wp_register_style( 'owl_style_2', plugins_url().'/enjoyinstagram/css/owl.theme.css' );
-	wp_register_style( 'owl_style_3', plugins_url().'/enjoyinstagram/css/owl.transitions.css' );
-	wp_register_style( 'swipebox_css', plugins_url().'/enjoyinstagram/css/swipebox.css' );
-	wp_register_style( 'grid_fallback', plugins_url().'/enjoyinstagram/css/grid_fallback.css' );
-	wp_register_style( 'grid_style', plugins_url().'/enjoyinstagram/css/grid_style.css' );
+	wp_register_style( 'owl_style', plugins_url('/css/owl.carousel.css',__FILE__) );
+	wp_register_style( 'owl_style_2', plugins_url('/css/owl.theme.css',__FILE__) );
+	wp_register_style( 'owl_style_3', plugins_url('/css/owl.transitions.css',__FILE__) );
+	wp_register_style( 'swipebox_css', plugins_url('/css/swipebox.css',__FILE__) );
+	wp_register_style( 'grid_fallback', plugins_url('/css/grid_fallback.css',__FILE__) );
+	wp_register_style( 'grid_style', plugins_url('/css/grid_style.css',__FILE__) );
 	
 	wp_enqueue_script( 'jquery' ); // include jQuery
 	wp_enqueue_script('owl');
@@ -305,7 +305,7 @@ function aggiungi_script_instafeed_owl() {
 add_action( 'wp_enqueue_scripts', 'aggiungi_script_instafeed_owl' );
 
 function aggiungi_script_in_admin(){
-	wp_register_style( 'enjoyinstagram_settings', plugins_url().'/enjoyinstagram/css/enjoyinstagram_settings.css' );
+	wp_register_style( 'enjoyinstagram_settings', plugins_url('/css/enjoyinstagram_settings.css',__FILE__) );
 	wp_enqueue_style( 'enjoyinstagram_settings' );
 }
 
@@ -324,7 +324,7 @@ function aggiungo_javascript_in_pannello_amministrazione() {
 					var client_secret = document.getElementById('enjoyinstagram_client_secret').value;
 					params['client_id'] = client_id;
 					params['redirect_uri'] = '<?php echo admin_url('options-general.php?page=enjoyinstagram_plugin_options&tab=enjoyinstagram_general_settings'); ?>';
-					params['scope'] = 'basic'; 
+					params['scope'] = 'likes'; 
 					params['response_type'] = 'code';
 				
 					var form = document.createElement("form");

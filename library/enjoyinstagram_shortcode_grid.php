@@ -15,8 +15,6 @@ $result = $instagram->getUserMedia(get_option('enjoyinstagram_user_id'));
 $pre_shortcode_content = "<div id=\"grid-".$i."\" class=\"ri-grid ri-grid-size-2 ri-shadow\" style=\"display:none;\"><ul>";
 
     
-
-
 foreach ($result->data as $entry) {
 	
 	$shortcode_content .=  "<li><a title=\"{$entry->caption->text}\" class=\"swipebox_grid\" href=\"{$entry->images->standard_resolution->url}\"><img  src=\"{$entry->images->standard_resolution->url}\"></a></li>";
@@ -33,33 +31,33 @@ $post_shortcode_content = "</ul></div>";
     
 			jQuery(function() {
 				jQuery('#grid-<?php echo $i; ?>').gridrotator({
-					rows		: <?php echo get_option('enjoyinstagram_grid_rows'); ?>,
-					columns		: <?php echo get_option('enjoyinstagram_grid_cols'); ?>,
+					rows		: 1,
+					columns		: 2,
 					animType	: 'fadeInOut',
 					onhover : false,
 					preventClick    : false,
 					w1400           : {
-    rows    : <?php echo get_option('enjoyinstagram_grid_rows'); ?>,
-    columns : <?php echo get_option('enjoyinstagram_grid_cols'); ?>
+    rows    : 1,
+    columns : 2
 },
-					w1024           : {
-    rows    : <?php echo get_option('enjoyinstagram_grid_rows'); ?>,
-    columns : <?php echo get_option('enjoyinstagram_grid_cols'); ?>
+w1024           : {
+    rows    : 1,
+    columns : 2
 },
  
 w768            : {
-    rows    : <?php echo get_option('enjoyinstagram_grid_rows'); ?>,
-    columns : <?php echo get_option('enjoyinstagram_grid_cols'); ?>
+    rows    : 1,
+    columns : 1
 },
  
 w480            : {
-    rows    : <?php echo get_option('enjoyinstagram_grid_rows'); ?>,
-    columns : <?php echo get_option('enjoyinstagram_grid_cols'); ?>
+    rows    : 1,
+    columns : 1
 },
  
 w320            : {
-    rows    : <?php echo get_option('enjoyinstagram_grid_rows'); ?>,
-    columns : <?php echo get_option('enjoyinstagram_grid_cols'); ?>
+    rows    : 1,
+    columns : 1
 },
  
 w240            : {

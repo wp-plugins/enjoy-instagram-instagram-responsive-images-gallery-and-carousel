@@ -1,12 +1,4 @@
 <?php
-/*
-Plugin Name: mygallery
-Plugin URI: http://wphardcore.com
-Description: A simple user interface for Gallery shortcode
-Version: 0.1
-Author: Gary Cao
-Author URI: http://garyc40.com
-*/
 
 if ( ! defined( 'ABSPATH' ) )
 	die( "Can't load this file directly" );
@@ -30,7 +22,7 @@ class MyGallery
 	}
 	
 	function filter_mce_plugin( $plugins ) {
-		$plugins['mygallery'] = plugins_url() . '/enjoyinstagram/js/shortcode_button.js';
+		$plugins['mygallery'] = plugins_url('shortcode_button.js',__FILE__);
 		return $plugins;
 	}
 }

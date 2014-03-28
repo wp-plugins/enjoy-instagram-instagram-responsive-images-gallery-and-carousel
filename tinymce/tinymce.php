@@ -13,7 +13,7 @@ class add_enjoyinstagram_button {
      */
     function add_enjoyinstagram_button() {
         // Set path to editor_plugin.js
-        $this->path = plugins_url().'/enjoyinstagram/tinymce/';
+        $this->path = plugins_url('/',__FILE__);
 
         // Modify the version when tinyMCE plugins are changed.
         add_filter('tiny_mce_version', array(&$this, 'change_tinymce_version'));

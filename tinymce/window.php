@@ -14,7 +14,7 @@ global $wp_scripts;
 
         <script language="javascript" type="text/javascript" src="<?php echo site_url(); ?>/wp-includes/js/tinymce/utils/form_utils.js"></script>
 
-        <script language="javascript" type="text/javascript" src="<?php echo plugins_url().'/enjoyinstagram/tinymce/enjoyinstagramtinymce.js'; ?>"></script>
+        <script language="javascript" type="text/javascript" src="<?php echo plugins_url('enjoyinstagramtinymce.js',__FILE__); ?>"></script>
         <base target="_self" />
         <?php wp_print_scripts(); ?>
     </head>
