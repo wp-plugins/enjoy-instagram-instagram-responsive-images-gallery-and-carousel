@@ -4,7 +4,7 @@ Donate link: http://www.mediabeta.com/enjoy-instagram/
 Tags: instagram, instagram images, instagram gallery, photos, widgets, gallery, instagram responsive, instagram touch
 Requires at least: 3.0.1
 Tested up to: 3.8
-Stable tag: 1.01
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
