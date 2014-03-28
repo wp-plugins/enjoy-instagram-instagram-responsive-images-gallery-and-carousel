@@ -16,12 +16,34 @@ Display in your site awesome carousels or images sliders of Instagram photos by 
  
 Each photo can be shown in “Lightbox” mode. Everything is responsive and optimized for mobile devices.
 
+Here is Live Demo: http://www.mediabeta.com/enjoy-instagram/
+
+= Features =
+
+* Connected with your instagram account
+* Use instagram hashtags
+* Shortcodes
+* Widgets
+* Responsive
+* Touch
+* Optimized Mobile Devices
+* Grid View Customizable
+* Carousel View Customizable
+* FadeIn Effect in Grid View
+* Possibility of inserting the Shortcode in a text
+* Very Simple Installation and Configuration
+
+Live DEMO: http://www.mediabeta.com/enjoy-instagram/
+
 == Installation ==
+
+Installation and Configuration are very simple :
 
 1. After you have installed and activated the plugin , go to Settings - > Enjoy Instagram and follow the instructions on the screen.
 2. To add shortcode to editor click on the  Enjoy Instagram icon and choose where include a Carousel View or a Grid View.
 3. Configure the display of your shortcodes from the plugin settings page
 4. To add to the Sidebar Enjoy Instagram go to Appearance - > Widgets and configure to your liking widgets Enjoy Instagram
+
 
 == Frequently Asked Questions ==
 
