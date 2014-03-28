@@ -45,12 +45,15 @@ Repeat Step 01 and Step 02 again.
 
 = 1.0 =
 * Initial Version
-
 = 1.01 =
+* Bux Fix
+= 1.1 =
 * Bux Fix
 == Upgrade Notice ==
 
 = 1.0 =
 * Initial Version
 = 1.01 =
+* Bux Fix
+= 1.1 =
 * Bux Fix
