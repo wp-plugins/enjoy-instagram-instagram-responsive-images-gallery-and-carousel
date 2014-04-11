@@ -20,12 +20,13 @@ $result = $instagram->getUserMedia(get_option('enjoyinstagram_user_id'));
     <ul>
 <?php
 
+if($result->data){
 foreach ($result->data as $entry) {
 	
 	echo "<li><a title=\"{$entry->caption->text}\" class=\"swipebox_grid\" href=\"{$entry->images->standard_resolution->url}\"><img  src=\"{$entry->images->standard_resolution->url}\"></a></li>";
 	
   }
-  
+}
 ?>
     </ul></div>
 

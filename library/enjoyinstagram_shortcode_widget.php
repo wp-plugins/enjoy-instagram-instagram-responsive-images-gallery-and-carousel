@@ -47,6 +47,7 @@ $result = $instagram->getUserMedia(get_option('enjoyinstagram_user_id'));
 ?>
 <div id="owl-<?php echo "{$id}"; ?>" class="owl-example">
 <?php
+if($result->data){
 foreach ($result->data as $entry) {
 	
 	if(get_option('enjoyinstagram_carousel_items_number')!='1'){
@@ -55,6 +56,7 @@ foreach ($result->data as $entry) {
 	    echo "<div class=\"box\"><a title=\"{$entry->caption->text}\" rel=\"gallery_swypebox\" class=\"swipebox\" href=\"{$entry->images->standard_resolution->url}\"><img style=\"width:100%;\" src=\"{$entry->images->standard_resolution->url}\"></a></div>";
 	}
   }
+}
 ?>
 </div>
 <?php

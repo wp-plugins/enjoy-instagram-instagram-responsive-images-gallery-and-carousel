@@ -8,7 +8,11 @@
 jQuery(document).ready(function($){
     $("input[name$='enjoyinstagram_user_or_hashtag']").click(function() {
         var test = $(this).val();
-
+		if(test=='user'){
+		$('#enjoyinstagram_hashtag').attr('disabled',true);
+		}else if(test=='hashtag'){
+		$('#enjoyinstagram_hashtag').attr('disabled',false);
+		}
         $("div.desc").hide();
         $("#enjoyinstagram_user_or_hashtag_" + test).show();
     });});
@@ -36,7 +40,7 @@ jQuery(document).ready(function($){
 						</div>
 
 						<div id="enjoyinstagram_user_or_hashtag_hashtag" class="desc" <?php if (get_option('enjoyinstagram_user_or_hashtag')!='hashtag') echo 'style="display:none;"';?>>
-                        #<input type="text" id="enjoyinstagram_hashtag" value="<?php echo get_option('enjoyinstagram_hashtag'); ?>" name="enjoyinstagram_hashtag" />
+                        #<input type="text" id="enjoyinstagram_hashtag" required value="<?php echo get_option('enjoyinstagram_hashtag'); ?>" name="enjoyinstagram_hashtag" />
  						<span class="description">insert a hashtag without '#'</span>
                         
  						</div>      
