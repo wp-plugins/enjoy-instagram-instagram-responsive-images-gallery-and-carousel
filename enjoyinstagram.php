@@ -478,7 +478,6 @@ update_option('enjoyinstagram_access_token','');
 }
 
 
-//require('custom_editor_button/shortcode_button.php');
 
 include_once ('tinymce/tinymce.php');
 require_once ('tinymce/ajax.php');
