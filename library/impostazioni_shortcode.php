@@ -1,4 +1,4 @@
-<form method="post" action="options.php">
+<form method="post" action="options.php" novalidate>
 <?php settings_fields('enjoyinstagram_options_carousel_group'); ?>
 <?php echo realpath(home_url()); ?>
  

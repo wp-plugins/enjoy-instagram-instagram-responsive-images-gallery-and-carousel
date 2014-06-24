@@ -4,8 +4,8 @@ Donate link: http://www.mediabeta.com/enjoy-instagram/
 Tags: instagram, instagram images, instagram gallery, photos, widgets, gallery, instagram responsive, instagram touch
 Requires at least: 3.0.1
 Tested up to: 3.8
-Version: 1.4
-Stable tag: 1.4
+Version: 1.5
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,8 @@ Repeat Step 01 and Step 02 again.
 * Bux Fix
 = 1.4 =
 * Fix warning for empty hashtag value
+= 1.5 =
+* Fix shortcode use and setting saving
 == Upgrade Notice ==
 
 = 1.0 =
@@ -92,3 +94,5 @@ Repeat Step 01 and Step 02 again.
 * Bux Fix
 = 1.4 =
 * Fix warning for empty hashtag value
+= 1.5 =
+* Fix shortcode use and setting saving
