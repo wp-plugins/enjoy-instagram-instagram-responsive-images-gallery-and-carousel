@@ -3,7 +3,7 @@
 Plugin Name: Enjoy Instagram
 Plugin URI: http://www.mediabeta.com/enjoy-instagram/
 Description: Instagram Responsive Images Gallery and Carousel, works with Shortcodes and Widgets.
-Version: 1.5
+Version: 1.5.1
 Author: F. Prestipino, F. Di Pane - Mediabeta Srl
 Author URI: http://www.mediabeta.com/team/
 */
@@ -117,6 +117,20 @@ class Settings_enjoyinstagram_Plugin {
             <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
       	</form>
 		</div>
+ 	</div>
+	</div>
+            <div class="ei_block">
+		
+        
+        <div id="premium_release">
+            
+          <div class="pad_premium_release">
+              <span class="coffee_title">Premium Version is <a href="http://www.mediabeta.com/enjoy-instagram-premium/">HERE</a> !</span>
+              <p><span style="color:#900; font-weight: bold;">Enjoy Instagram Premium</span> is the only plugin that allows you to <span style="color:#900; font-weight: bold;">moderate</span> the pictures and choose which show.<br />
+                  Discover now all the features and innovations, <a href="http://www.mediabeta.com/enjoy-instagram-premium/">CLICK HERE</a></p>
+         
+		</div>
+            
  	</div>
 	</div>
 </h2>
@@ -387,7 +401,7 @@ add_action('wp_head', 'funzioni_in_head');
 function enjoyinstagram_plugin_settings_link($links) { 
 		  $settings_link = '<a href="options-general.php?page=enjoyinstagram_plugin_options">' . __( 'Settings' ) . '</a>'; 
 		  $widgets_link = '<a href="widgets.php">' . __( 'Widgets' ) . '</a>';
-		  $premium_link = '<a href="http://www.mediabeta.com/enjoy-instagram/">' . __( 'Premium Version' ) . '</a>';
+		  $premium_link = '<a href="http://www.mediabeta.com/enjoy-instagram-premium/">' . __( 'Premium Version' ) . '</a>';
 		  array_push($links, $settings_link); 
 		  array_push($links, $widgets_link); 
 		  array_push($links, $premium_link); 

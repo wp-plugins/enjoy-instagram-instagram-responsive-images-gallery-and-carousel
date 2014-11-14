@@ -3,9 +3,9 @@ Contributors: (mediabeta, frafra85, fabiodipa)
 Donate link: http://www.mediabeta.com/enjoy-instagram/
 Tags: instagram, instagram images, instagram gallery, photos, widgets, gallery, instagram responsive, instagram touch
 Requires at least: 3.0.1
-Tested up to: 3.9.1
-Version: 1.5
-Stable tag: 1.5
+Tested up to: 4.0
+Version: 1.5.1
+Stable tag: 1.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,23 @@ Here is Live Demo: http://www.mediabeta.com/enjoy-instagram/
 * Possibility of inserting the Shortcode in a text
 * Very Simple Installation and Configuration
 
-Live DEMO: http://www.mediabeta.com/enjoy-instagram/
+= PREMIUM VERSION =
+
+* NEW Polaroid View
+* NEW Album View
+* NEW Badge View
+* Autoreload Stream of Photos
+* Moderation Control: you can choose which photos show.
+* Autoplay
+* Loop
+* Possibility to choose what link on the photo: Lightbox, Instagram, Custom URL or nothing.
+* Custom CSS: edit CSS, set border, margin, background and much more
+* Custom Transition Effect
+* Custom JS: set time to autoplay and speed, set name of prev and next buttons and much more.
+* Possibility to choose if show photo’s author, caption and likes number.
+* and many others features..
+
+LIVE PREMIUM VERSION DEMO: http://www.mediabeta.com/enjoy-instagram-premium/
 
 == Installation ==
 
@@ -80,6 +96,8 @@ Repeat Step 01 and Step 02 again.
 * Fix warning for empty hashtag value
 = 1.5 =
 * Fix shortcode use and setting saving
+= 1.5.1 =
+* Bugs Fix
 == Upgrade Notice ==
 
 = 1.0 =
@@ -96,3 +114,5 @@ Repeat Step 01 and Step 02 again.
 * Fix warning for empty hashtag value
 = 1.5 =
 * Fix shortcode use and setting saving
+= 1.5.1 =
+* Bugs Fix
