@@ -4,8 +4,8 @@ Donate link: http://www.mediabeta.com/enjoy-instagram/
 Tags: instagram, instagram images, instagram gallery, photos, widgets, gallery, instagram responsive, instagram touch
 Requires at least: 3.0.1
 Tested up to: 4.0
-Version: 1.5.1
-Stable tag: 1.5.1
+Version: 1.5.2
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,8 @@ Repeat Step 01 and Step 02 again.
 * Fix shortcode use and setting saving
 = 1.5.1 =
 * Bugs Fix
+= 1.5.2 =
+* Bug for utf8 4-byte (mobile emoticon) Fixed
 == Upgrade Notice ==
 
 = 1.0 =
@@ -116,3 +118,5 @@ Repeat Step 01 and Step 02 again.
 * Fix shortcode use and setting saving
 = 1.5.1 =
 * Bugs Fix
+= 1.5.2 =
+* Bug for utf8 4-byte (mobile emoticon) Fixed

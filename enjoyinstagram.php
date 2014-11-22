@@ -170,11 +170,11 @@ class Settings_enjoyinstagram_Plugin {
 			$user = json_decode($jsonData,true); 
 			 
 			$enjoyinstagram_user_id = $user['user']['id'];
-			$enjoyinstagram_user_username = $user['user']['username']; 
+			$enjoyinstagram_user_username = replace4byte($user['user']['username']); 
 			$enjoyinstagram_user_profile_picture = $user['user']['profile_picture'];
-			$enjoyinstagram_user_fullname = $user['user']['full_name'];
+			$enjoyinstagram_user_fullname = replace4byte($user['user']['full_name']);
 			$enjoyinstagram_user_website = $user['user']['website'];
-			$enjoyinstagram_user_bio = $user['user']['bio'];
+			$enjoyinstagram_user_bio = replace4byte($user['user']['bio']);
 			$enjoyinstagram_access_token = $user['access_token'];
 			
 			update_option( 'enjoyinstagram_user_id', $enjoyinstagram_user_id );
@@ -218,6 +218,13 @@ class Settings_enjoyinstagram_Plugin {
 		}
 	};
 
+function replace4byte($string) {
+    return preg_replace('%(?:
+          \xF0[\x90-\xBF][\x80-\xBF]{2}      # planes 1-3
+        | [\xF1-\xF3][\x80-\xBF]{3}          # planes 4-15
+        | \xF4[\x80-\x8F][\x80-\xBF]{2}      # plane 16
+    )%xs', '', $string);    
+} 
 // Initialize the plugin
 add_action( 'plugins_loaded', create_function( '', '$Settings_enjoyinstagram_Plugin = new Settings_enjoyinstagram_Plugin;' ) );
 
