@@ -40,7 +40,7 @@ Here is Live Demo: http://www.mediabeta.com/enjoy-instagram/
 * NEW Album View
 * NEW Badge View
 * Autoreload Stream of Photos
-* Moderation Control: you can choose which photos show.
+* Moderation Control: you can choose which photos show ( Watch how it works: https://www.youtube.com/watch?v=W6gNqlghbLE ).
 * Autoplay
 * Loop
 * Possibility to choose what link on the photo: Lightbox, Instagram, Custom URL or nothing.
@@ -50,7 +50,7 @@ Here is Live Demo: http://www.mediabeta.com/enjoy-instagram/
 * Possibility to choose if show photo’s author, caption and likes number.
 * and many others features..
 
-LIVE PREMIUM VERSION DEMO: http://www.mediabeta.com/enjoy-instagram-premium/
+LIVE PREMIUM VERSION DEMO: http://www.mediabetaprojects.com/enjoy-instagram-premium/
 
 == Installation ==
 
