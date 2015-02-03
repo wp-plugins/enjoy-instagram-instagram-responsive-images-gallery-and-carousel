@@ -27,33 +27,33 @@ Here is Live Demo: http://www.mediabeta.com/enjoy­instagram/
 = Features =
 
 * Connected with your instagram account
-* Display = photos using instagram hashtags =
+* Display photos using instagram hashtags 
 * Display photos by your Instagram account
 * Shortcodes
-* Use like a = Widgets =
+* Use like a Widgets 
 * Touch
-* Completely = responsive = and = Optimized Mobile Devices =
-* = Grid View = Customizable
-* = Carousel View = Customizable
+* Completely responsive and Optimized Mobile Devices 
+* Grid View Customizable
+* Carousel View Customizable
 * FadeIn Effect in Grid View
-* Possibility of inserting the = Shortcode = in a text
+* Possibility of inserting the Shortcode in a text
 * Very Simple Installation and Configuration
 
 = PREMIUM VERSION =
 
 See demo http://www.mediabetaprojects.com/enjoy-instagram-premium/
 
-* = NEW Polaroid View = to overlay images as polaroid pictures
-* = NEW Album View = to show your pictures organized for username and or hashtags
-* = NEW Badge View = that will help you link to and promote your Instagram web profile
-* = Autoreload = Stream of Photos
-* = Moderation Panel: = In real time you can moderate new photos and decide to approve and to publish or to rejected (Watch how it works: https://www.youtube.com/watch?v=W6gNqlghbLE ).
-* = Autoplay =
-* = Loop =
-* Possibility to = choose what link on the photo: = Lightbox, Instagram, Custom URL or nothing.
-* = Custom CSS: = edit CSS, set border, margin, background and much more
-* Custom = Transition Effect =
-* = Custom JS: = set time to autoplay and speed, set name of prev and next buttons and much more.
+* NEW Polaroid View to overlay images as polaroid pictures
+* NEW Album View to show your pictures organized for username and or hashtags
+* NEW Badge View that will help you link to and promote your Instagram web profile
+* Autoreload Stream of Photos
+* Moderation Panel: In real time you can moderate new photos and decide to approve and to publish or to rejected (Watch how it works: https://www.youtube.com/watch?v=W6gNqlghbLE ).
+* Autoplay
+* Loop
+* Possibility to choose what link on the photo: Lightbox, Instagram, Custom URL or nothing.
+* Custom CSS: edit CSS, set border, margin, background and much more
+* Custom Transition Effect
+* Custom JS: set time to autoplay and speed, set name of prev and next buttons and much more.
 * Possibility to choose if show photo’s author, caption and likes number.
 * and many others features..
 
