@@ -1,7 +1,7 @@
 === Enjoy Instagram ===
 Contributors: (mediabeta, frafra85, fabiodipa)
 Donate link: http://www.mediabeta.com/enjoy-instagram/
-Tags: instagram, instagram images, instagram gallery, photos, widgets, gallery, instagram responsive, instagram touch
+Tags: Instagram plugin, Instagram, Instagram gallery, Instagram images, Lightbox Instagram,Grid Instagram view, Instagram responsive, Instagram touch, Instagram photos,Instagram posts, Instagram page, Instagram widgets
 Requires at least: 3.0.1
 Tested up to: 4.0
 Version: 1.5.2
@@ -13,40 +13,47 @@ Display in your site awesome carousels or images sliders of Instagram photos by 
 
 == Description ==
 
-Display in your site awesome carousels or images sliders of Instagram photos by user or hashtag. You can easily use Enjoy Instagram in your pages, posts, sidebars with shortcodes or widgets. 
- 
-Each photo can be shown in “Lightbox” mode. Everything is responsive and optimized for mobile devices.
+= Visualize Instagram Photos in your website! =
 
-Here is Live Demo: http://www.mediabeta.com/enjoy-instagram/
+You can display awesome carousels or images sliders of Instagram photos by user or
+hashtag. You can easily use Enjoy Instagram in your pages, posts, sidebars with
+shortcodes or widgets.
+
+Each photo can be shown in “Lightbox”or Grid mode. Everything is responsive and
+optimized for mobile devices.
+
+Here is Live Demo: http://www.mediabeta.com/enjoy­instagram/
 
 = Features =
 
 * Connected with your instagram account
-* Use instagram hashtags
+* Display = photos using instagram hashtags =
+* Display photos by your Instagram account
 * Shortcodes
-* Widgets
-* Responsive
+* Use like a = Widgets =
 * Touch
-* Optimized Mobile Devices
-* Grid View Customizable
-* Carousel View Customizable
+* Completely = responsive = and = Optimized Mobile Devices =
+* = Grid View = Customizable
+* = Carousel View = Customizable
 * FadeIn Effect in Grid View
-* Possibility of inserting the Shortcode in a text
+* Possibility of inserting the = Shortcode = in a text
 * Very Simple Installation and Configuration
 
 = PREMIUM VERSION =
 
-* NEW Polaroid View
-* NEW Album View
-* NEW Badge View
-* Autoreload Stream of Photos
-* Moderation Control: you can choose which photos show ( Watch how it works: https://www.youtube.com/watch?v=W6gNqlghbLE ).
-* Autoplay
-* Loop
-* Possibility to choose what link on the photo: Lightbox, Instagram, Custom URL or nothing.
-* Custom CSS: edit CSS, set border, margin, background and much more
-* Custom Transition Effect
-* Custom JS: set time to autoplay and speed, set name of prev and next buttons and much more.
+See demo http://www.mediabetaprojects.com/enjoy-instagram-premium/
+
+* = NEW Polaroid View = to overlay images as polaroid pictures
+* = NEW Album View = to show your pictures organized for username and or hashtags
+* = NEW Badge View = that will help you link to and promote your Instagram web profile
+* = Autoreload = Stream of Photos
+* = Moderation Panel: = In real time you can moderate new photos and decide to approve and to publish or to rejected (Watch how it works: https://www.youtube.com/watch?v=W6gNqlghbLE ).
+* = Autoplay =
+* = Loop =
+* Possibility to = choose what link on the photo: = Lightbox, Instagram, Custom URL or nothing.
+* = Custom CSS: = edit CSS, set border, margin, background and much more
+* Custom = Transition Effect =
+* = Custom JS: = set time to autoplay and speed, set name of prev and next buttons and much more.
 * Possibility to choose if show photo’s author, caption and likes number.
 * and many others features..
 
