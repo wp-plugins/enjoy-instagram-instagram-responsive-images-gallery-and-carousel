@@ -22,7 +22,7 @@ shortcodes or widgets.
 Each photo can be shown in “Lightbox”or Grid mode. Everything is responsive and
 optimized for mobile devices.
 
-Here is Live Demo: http://www.mediabeta.com/enjoy­instagram/
+Here is Live Demo: http://www.mediabeta.com/enjoy­-instagram/
 
 = Features =
 
