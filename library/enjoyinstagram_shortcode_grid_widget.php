@@ -11,9 +11,9 @@ if(get_option('enjoyinstagram_client_id') || get_option('enjoyinstagram_client_i
 $instagram = new Enjoy_Instagram(get_option('enjoyinstagram_client_id'));
 $instagram->setAccessToken(get_option('enjoyinstagram_access_token'));
 if("{$u_or_h}"=='hashtag'){
-$result = $instagram->getTagMedia(get_option('enjoyinstagram_hashtag'));
+$result = $instagram->getTagMedia(urlencode(get_option('enjoyinstagram_hashtag')));
 }else{
-$result = $instagram->getUserMedia(get_option('enjoyinstagram_user_id'));
+$result = $instagram->getUserMedia(urlencode(get_option('enjoyinstagram_user_id')));
 }
 ?>
 <div id="rigrid-<?php echo "{$id}"; ?>" class="ri-grid ri-grid-size-2 ri-shadow" style="display:none">

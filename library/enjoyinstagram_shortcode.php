@@ -47,9 +47,9 @@ jQuery("#owl-<?php echo $i; ?>").owlCarousel({
 $instagram = new Enjoy_Instagram(get_option('enjoyinstagram_client_id'));
 $instagram->setAccessToken(get_option('enjoyinstagram_access_token'));
 if(get_option('enjoyinstagram_user_or_hashtag')=='hashtag'){
-$result = $instagram->getTagMedia(get_option('enjoyinstagram_hashtag'));
+$result = $instagram->getTagMedia(urlencode(get_option('enjoyinstagram_hashtag')));
 }else{
-$result = $instagram->getUserMedia(get_option('enjoyinstagram_user_id'));
+$result = $instagram->getUserMedia(urlencode(get_option('enjoyinstagram_user_id')));
 }
 $pre_shortcode_content = "<div id=\"owl-".$i."\" class=\"owl-example\" style=\"display:none;\">";
 
