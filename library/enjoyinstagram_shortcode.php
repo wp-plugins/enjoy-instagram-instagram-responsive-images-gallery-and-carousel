@@ -53,6 +53,15 @@ $result = $instagram->getUserMedia(urlencode(get_option('enjoyinstagram_user_id'
 }
 $pre_shortcode_content = "<div id=\"owl-".$i."\" class=\"owl-example\" style=\"display:none;\">";
 
+
+		if (isHttps()) {
+			foreach ($result->data as $entry) {
+				$entry->images->thumbnail->url = str_replace('http://', 'https://', $entry->images->thumbnail->url);
+				$entry->images->standard_resolution->url = str_replace('http://', 'https://', $entry->images->standard_resolution->url);
+			}
+		}
+
+
 foreach ($result->data as $entry) {
 	
 	if(get_option('enjoyinstagram_carousel_items_number')!='1'){

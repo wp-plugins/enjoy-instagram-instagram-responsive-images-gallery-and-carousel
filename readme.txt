@@ -4,8 +4,8 @@ Donate link: http://www.mediabeta.com/enjoy-instagram/
 Tags: Instagram plugin, Instagram, Instagram gallery, Instagram images, Lightbox Instagram,Grid Instagram view, Instagram responsive, Instagram touch, Instagram photos,Instagram posts, Instagram page, Instagram widgets
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Version: 1.5.3
-Stable tag: 1.5.3
+Version: 1.6
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -109,6 +109,8 @@ Repeat Step 01 and Step 02 again.
 * Bug for utf8 4-byte (mobile emoticon) Fixed
 = 1.5.3 =
 * Support for swedish specific characters.
+= 1.6 =
+* Add support for https protocol
 
 == Upgrade Notice ==
 
@@ -132,3 +134,5 @@ Repeat Step 01 and Step 02 again.
 * Bug for utf8 4-byte (mobile emoticon) Fixed
 = 1.5.3 =
 * Support for swedish specific characters.
+= 1.6 =
+* Add support for https protocol

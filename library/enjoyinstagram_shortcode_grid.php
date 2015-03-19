@@ -14,7 +14,16 @@ $result = $instagram->getUserMedia(urlencode(get_option('enjoyinstagram_user_id'
 
 $pre_shortcode_content = "<div id=\"grid-".$i."\" class=\"ri-grid ri-grid-size-2 ri-shadow\" style=\"display:none;\"><ul>";
 
-    
+
+
+	if (isHttps()) {
+		foreach ($result->data as $entry) {
+			$entry->images->thumbnail->url = str_replace('http://', 'https://', $entry->images->thumbnail->url);
+			$entry->images->standard_resolution->url = str_replace('http://', 'https://', $entry->images->standard_resolution->url);
+		}
+	}
+
+
 
 
 foreach ($result->data as $entry) {
