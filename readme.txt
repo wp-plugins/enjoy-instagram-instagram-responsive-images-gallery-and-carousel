@@ -1,6 +1,6 @@
 === Enjoy Instagram ===
 Contributors: (mediabeta, frafra85, fabiodipa)
-Donate link: http://www.mediabeta.com/enjoy-instagram/
+Donate link: https://www.google.com/url?q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D8MXZ37DWHAX46&sa=D&sntz=1&usg=AFQjCNFHixLdowdc2AAEXDYmM9tQBl-TXQ
 Tags: Instagram plugin, Instagram, Instagram gallery, Instagram images, Lightbox Instagram,Grid Instagram view, Instagram responsive, Instagram touch, Instagram photos,Instagram posts, Instagram page, Instagram widgets
 Requires at least: 3.0.1
 Tested up to: 4.2.1
