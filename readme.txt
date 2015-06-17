@@ -9,7 +9,7 @@ Stable tag: 1.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Display in your site awesome carousels or images sliders of Instagram photos by user or hashtag.
+Instagram on your site! Display in your site awesome carousels or images sliders of Instagram photos by user or hashtag.
 
 == Description ==
 
