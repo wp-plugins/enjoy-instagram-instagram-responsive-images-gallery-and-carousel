@@ -78,7 +78,7 @@ Installation and Configuration are very simple :
 
 == Frequently Asked Questions ==
 
-= My profile disappeared. What’s happened? =
+= How to Install Enjoy Instagram WordPress Plugin =
 http://www.mediabetaprojects.com/enjoy-instagram-premium/install-enjoy-instagram-wordpress-plugin/
 
 
