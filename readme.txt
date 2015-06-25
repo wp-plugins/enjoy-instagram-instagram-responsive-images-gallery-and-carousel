@@ -37,7 +37,6 @@ Everything is responsive and optimized for mobile devices.
 * Completely responsive and Optimized Mobile Devices
 
 = Very Simple Installation and Configuration =
-
 * http://www.mediabetaprojects.com/enjoy-instagram-premium/install-enjoy-instagram-wordpress-plugin/
 
 = PREMIUM VERSION =
@@ -52,7 +51,8 @@ In the premium configuration you will have a useful and amazing Moderation Panel
 * NEW Album View to show your pictures organized for username and or hashtags
 * NEW Badge View that will help you link to and promote your Instagram web profile
 * Autoreload Stream of Photos
-* Moderation Panel: In real time you can moderate new photos and decide to approve and to publish or to rejected (Watch how it works: https://www.youtube.com/watch?v=W6gNqlghbLE ).
+* Moderation Panel: In real time you can moderate new photos and decide to approve and to publish or to rejected (Watch how it works:
+[youtube https://www.youtube.com/watch?v=W6gNqlghbLE]
 * Autoplay
 * Loop
 * Possibility to choose what link on the photo: Lightbox, Instagram, Custom URL or nothing.
