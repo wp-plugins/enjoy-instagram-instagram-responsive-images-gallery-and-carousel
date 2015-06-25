@@ -3,7 +3,7 @@
 Plugin Name: Enjoy Instagram
 Plugin URI: http://www.mediabeta.com/enjoy-instagram/
 Description: Instagram Responsive Images Gallery and Carousel, works with Shortcodes and Widgets.
-Version: 1.6.1
+Version: 1.6.2
 Author: F. Prestipino, F. Di Pane - Mediabeta Srl
 Author URI: http://www.mediabeta.com/team/
 */
@@ -386,6 +386,7 @@ function funzioni_in_head() {
 		});
 
 		jQuery(function(){
+			/*
 			jQuery(document.body)
 				.on('click touchend','#swipebox-slider .current img', function(e){
 					jQuery('#swipebox-next').click();
@@ -394,6 +395,7 @@ function funzioni_in_head() {
 				.on('click touchend','#swipebox-slider .current', function(e){
 					jQuery('#swipebox-close').trigger('click');
 				});
+			*/
 		});
 
 	</script>

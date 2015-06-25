@@ -3,45 +3,50 @@ Contributors: (mediabeta, frafra85, fabiodipa)
 Donate link: https://www.google.com/url?q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D8MXZ37DWHAX46&sa=D&sntz=1&usg=AFQjCNFHixLdowdc2AAEXDYmM9tQBl-TXQ
 Tags: Instagram plugin, Instagram, Instagram gallery, Instagram images, Lightbox Instagram,Grid Instagram view, Instagram responsive, Instagram touch, Instagram photos,Instagram posts, Instagram page, Instagram widgets
 Requires at least: 3.0.1
-Tested up to: 4.2.1
-Version: 1.6.1
-Stable tag: 1.6.1
+Tested up to: 4.2.2
+Version: 1.6.2
+Stable tag: 1.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Instagram on your site! Display in your site awesome carousels or images sliders of Instagram photos by user or hashtag.
+Instagram on your website with shortcodes and widgets! Images of Instagram profiles and hashtags on posts, pages, sidebars with Carousel and Grid view
 
 == Description ==
 
 = Visualize Instagram Photos in your website! =
 
-You can display awesome carousels or images sliders of Instagram photos by user or
-hashtag. You can easily use Enjoy Instagram in your pages, posts, sidebars with
-shortcodes or widgets.
+Publish easily Instagram photos in your pages, posts, sidebars thanks to simple shortcodes and widgets.
 
-Each photo can be shown in “Lightbox”or Grid mode. Everything is responsive and
-optimized for mobile devices.
+Each photo can be shown in Carousel and Grid mode with Lightbox effect.
+Everything is responsive and optimized for mobile devices.
 
-Here is Live Demo: http://www.mediabeta.com/enjoy-instagram/
+= Here is Live Demo: = http://www.mediabeta.com/enjoy-instagram/
 
-= Features =
+= Basic Features =
 
-* Connected with your instagram account
-* Display photos using instagram hashtags 
-* Display photos by your Instagram account
-* Shortcodes
-* Use like a Widgets 
+* Show pictures of Instagram profiles and/or Hashtags
+* Grid View
+* Fade In Effect for Grid View
+* Number of columns and rows customizable
+* Carousel View
+* Number of pictures to see in same time customizable
+* Navigations buttons (yes/no)
+* Shortcodes button in the editor
+* Widgets for sidebars
 * Touch
-* Completely responsive and Optimized Mobile Devices 
-* Grid View Customizable
-* Carousel View Customizable
-* FadeIn Effect in Grid View
-* Possibility of inserting the Shortcode in a text
-* Very Simple Installation and Configuration
+* Completely responsive and Optimized Mobile Devices
+
+= Very Simple Installation and Configuration =
+
+* http://www.mediabetaprojects.com/enjoy-instagram-premium/install-enjoy-instagram-wordpress-plugin/
 
 = PREMIUM VERSION =
 
-See demo http://www.mediabetaprojects.com/enjoy-instagram-premium/
+= The first and alone wordpress plugin = that gives you the chance to choose which Instagram photos display in your website.
+
+In the premium configuration you will have a useful and amazing Moderation Panel!
+
+= See LIVE PREVIEW: = http://www.mediabetaprojects.com/enjoy-instagram-premium/
 
 * NEW Polaroid View to overlay images as polaroid pictures
 * NEW Album View to show your pictures organized for username and or hashtags
@@ -55,9 +60,11 @@ See demo http://www.mediabetaprojects.com/enjoy-instagram-premium/
 * Custom Transition Effect
 * Custom JS: set time to autoplay and speed, set name of prev and next buttons and much more.
 * Possibility to choose if show photo’s author, caption and likes number.
-* and many others features..
 
-LIVE PREMIUM VERSION DEMO: http://www.mediabetaprojects.com/enjoy-instagram-premium/
+and many others features..
+
+= LIVE PREMIUM VERSION DEMO: =
+http://www.mediabetaprojects.com/enjoy-instagram-premium/
 
 == Installation ==
 
@@ -72,7 +79,10 @@ Installation and Configuration are very simple :
 == Frequently Asked Questions ==
 
 = My profile disappeared. What’s happened? =
+http://www.mediabetaprojects.com/enjoy-instagram-premium/install-enjoy-instagram-wordpress-plugin/
 
+
+= My profile disappeared. What’s happened? =
 Repeat Step 01 and Step 02 again. 
 
 
@@ -113,6 +123,8 @@ Repeat Step 01 and Step 02 again.
 * Add support for https protocol
 = 1.6.1 =
 * Fix hashtag mode
+= 1.6.2 =
+* Bug Fix
 
 == Upgrade Notice ==
 
@@ -140,3 +152,5 @@ Repeat Step 01 and Step 02 again.
 * Add support for https protocol
 = 1.6.1 =
 * Fix hashtag mode
+= 1.6.2 =
+* Bug Fix
